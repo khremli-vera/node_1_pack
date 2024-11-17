@@ -34,6 +34,8 @@ function getPolishReverseRes(str, type) {
         return resArray[0];
     case 'string':
         return resArray[0].toString();
+    case 'array':
+        return resArray;
     default:
         console.log('Only number and string types could be selected')
         }
