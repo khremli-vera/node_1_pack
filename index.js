@@ -1,4 +1,7 @@
+const data = require('./package.json');
+const version = data.version;
 function getPolishReverseRes(str) {
+    console.log(`Hi glad to see u here! Current version is ${version}`);
     const dataArray = str.split(' ');
     const resArray = [];
     let res;
@@ -28,5 +31,6 @@ function getPolishReverseRes(str) {
     }
     return resArray[0]
 }
+
 
 module.exports = {getPolishReverseRes}
