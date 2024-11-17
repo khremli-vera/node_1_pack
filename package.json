@@ -1,0 +1,24 @@
+{
+  "name": "node_1_pack",
+  "version": "1.0.0",
+  "description": "The calculation in reverse polish notation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khremli-vera/node_1_pack.git"
+  },
+  "keywords": [
+    "reverse",
+    "polish",
+    "notation"
+  ],
+  "author": "Vera Khremli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khremli-vera/node_1_pack/issues"
+  },
+  "homepage": "https://github.com/khremli-vera/node_1_pack#readme"
+}
