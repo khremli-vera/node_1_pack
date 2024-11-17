@@ -1,7 +1,7 @@
 const data = require('./package.json');
 const version = data.version;
 console.log(`Hi glad to see u here! Current version is ${version}`);
-function getPolishReverseRes(str) {
+function getPolishReverseRes(str, type) {
     const dataArray = str.split(' ');
     const resArray = [];
     let res;
@@ -29,7 +29,14 @@ function getPolishReverseRes(str) {
             resArray.push(res);
         }
     }
-    return resArray[0]
+    switch (type) {
+    case 'number':
+        return resArray[0];
+    case 'string':
+        return resArray[0].toString();
+    default:
+        console.log('Only number and string types could be selected')
+        }
 }
 
 
