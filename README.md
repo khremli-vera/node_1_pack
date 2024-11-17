@@ -7,6 +7,7 @@ The application is developed to calculate values in reverse polish notation and 
 ---
   
 Versioning:  
+2.1.1 - update README (versioning)  
 2.1.0 - add array type for result  
 2.0.0 - add type selection for result (string or number)   
 1.1.1 - fix console.log for greeting 
