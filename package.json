@@ -1,6 +1,6 @@
 {
   "name": "node_1_pack_vk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The calculation in reverse polish notation",
   "main": "index.js",
   "scripts": {
